@@ -1,0 +1,296 @@
+.navbar {
+  /* border: 5px solid red; */
+  background-color: #3330E4;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  /* border: 5px solid black; */
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.port {
+  /* border: 5px solid darkorange; */
+  width: 200px;
+  height: 70px;
+}
+
+.links {
+  /* border: 5px solid darkorange; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+.text {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+
+}
+
+.text:hover {
+  /* border: 2px dotted black; */
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+/*-------X------HOME.JS---------X-------- */
+
+
+.mainbox {
+  /* border: 5px solid darkgreen; */
+  padding: 0 10px 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebox {
+  /* border: 5px solid darkred; */
+  background-color: #050378;
+  width: 150px;
+  height: fit-content;
+  padding: 30px;
+}
+
+.category {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category button {
+  color: white;
+  height: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  border: none;
+  background-color: #050378;
+
+}
+
+.category button:hover {
+  font-weight: bolder;
+  font-size: large;
+  color: green;
+}
+
+.category h2 {
+  color: rgb(246, 238, 0);
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.centerbox {
+  /* border: 5px solid darkmagenta; */
+  width: 1000px;
+  margin-left: 40px;
+
+  flex-wrap: wrap;
+}
+
+.heading {
+  border-bottom: 5px solid darkred;
+  height: 40px;
+  text-align: center;
+  /* color: white; */
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.dep {
+  /* border: 5px solid darkorange; */
+  /* background-color: #5F9DF7; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 350px;
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid black; */
+  border-radius: 20px;
+  background-color: #61dafb;
+}
+
+.card img {
+  width: 300px;
+}
+
+.btn {
+  text-decoration: none;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  left: 30%;
+}
+
+.btn:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+/*-------X------ABOUT.JS---------X-------- */
+
+.start {
+  border: 5px solid yellow;
+  margin: 30px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  gap: 15px;
+  background-color: rgba(255, 0, 0, 0.365);
+}
+
+.you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1300px;
+  flex-wrap: wrap;
+}
+
+.you .reporter {
+  overflow: hidden;
+  width: 300px;
+  height: 270px;
+  margin: 30px 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0px 20px blue;
+  background-color: #61dafb7f;
+  transition: 0.3s ease-in-out;
+}
+
+.you .reporter:hover {
+  height: 500px;
+}
+
+.you .reporter .about-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.you .reporter .about-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* .details {
+  border: 5px solid red;
+  width: 550px;
+  padding: 50px;
+} */
+
+
+
+/*-------X------CONTACT.JS---------X-------- */
+
+.send {
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 119);
+  font-weight: bold;
+}
+
+.setbtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.send:hover {
+  height: 40px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.follow {
+  background-color: #050378;
+  color: wheat;
+}
+
+.clickable {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.necs {
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 50%; */
+  margin: 30px;
+  justify-content: center;
+
+}
+
+.necs input {
+  height: 40px;
+  width: 100%;
+}
+
+.namebox {
+  padding: 20px;
+  width: 45%;
+}
+
+.emailbox {
+  padding: 20px;
+  width: 45%;
+}
+
+.contactbox {
+  padding: 20px;
+  width: 45%;
+}
+
+.uploadbox {
+  padding: 20px;
+  width: 45%;
+}
+
+.addressbox {
+  padding: 20px;
+  width: 45%;
+}
+
+.subjectbox {
+  padding: 20px;
+  width: 45%;
+}
+
+textarea {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+  position: relative;
+  left: 90px;
+}
